@@ -46,7 +46,7 @@ function framework_wp_title( $title, $sep ) {
 	if ( is_feed() ) {
 		return $title;
 	}
-
+	
 	global $page, $paged;
 
 	// Add the blog name
@@ -59,7 +59,7 @@ function framework_wp_title( $title, $sep ) {
 	}
 
 	// Add a page number if necessary:
-	if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() ) {
+	if ( $paged >= 2 || $page >= 2 ) {
 		$title .= " $sep " . sprintf( __( 'Page %s', 'framework' ), max( $paged, $page ) );
 	}
 

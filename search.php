@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying search results pages.
+ * The template for displaying Search Results pages.
  *
  * @package framework
  */
@@ -19,16 +19,11 @@ get_header(); ?>
 			<?php /* Start the Loop */ ?>
 			<?php while ( have_posts() ) : the_post(); ?>
 
-				<?php
-				/**
-				 * Run the loop for the search to output the results.
-				 * If you want to overload this in a child theme then include a file
-				 * called content-search.php and that will be used instead.
-				 */
-				get_template_part( 'content', 'search' );
-				?>
+				<?php get_template_part( 'content', 'search' ); ?>
 
 			<?php endwhile; ?>
+
+			<?php framework_numeric_posts_nav(); ?>
 
 			<?php framework_paging_nav(); ?>
 

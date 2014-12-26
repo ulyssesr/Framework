@@ -6,7 +6,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-		<?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
+		<h1 class="entry-title"><?php the_title(); ?></h1>
 
 		<div class="entry-meta">
 			<?php framework_posted_on(); ?>
@@ -23,7 +23,7 @@
 		?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-footer">
+	<footer class="entry-meta">
 		<?php
 			/* translators: used between list items, there is a space after the comma */
 			$category_list = get_the_category_list( __( ', ', 'framework' ) );
@@ -38,6 +38,7 @@
 				} else {
 					$meta_text = __( 'Bookmark the <a href="%3$s" rel="bookmark">permalink</a>.', 'framework' );
 				}
+
 			} else {
 				// But this blog has loads of categories so we should probably display them here
 				if ( '' != $tag_list ) {
@@ -45,6 +46,7 @@
 				} else {
 					$meta_text = __( 'This entry was posted in %1$s. Bookmark the <a href="%3$s" rel="bookmark">permalink</a>.', 'framework' );
 				}
+
 			} // end check for categories on this blog
 
 			printf(
@@ -56,5 +58,5 @@
 		?>
 
 		<?php edit_post_link( __( 'Edit', 'framework' ), '<span class="edit-link">', '</span>' ); ?>
-	</footer><!-- .entry-footer -->
+	</footer><!-- .entry-meta -->
 </article><!-- #post-## -->

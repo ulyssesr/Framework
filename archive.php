@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying archive pages.
+ * The template for displaying Archive pages.
  *
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
@@ -39,10 +39,10 @@ get_header(); ?>
 							_e( 'Asides', 'framework' );
 
 						elseif ( is_tax( 'post_format', 'post-format-gallery' ) ) :
-							_e( 'Galleries', 'framework' );
+							_e( 'Galleries', 'framework');
 
 						elseif ( is_tax( 'post_format', 'post-format-image' ) ) :
-							_e( 'Images', 'framework' );
+							_e( 'Images', 'framework');
 
 						elseif ( is_tax( 'post_format', 'post-format-video' ) ) :
 							_e( 'Videos', 'framework' );
@@ -89,6 +89,8 @@ get_header(); ?>
 				?>
 
 			<?php endwhile; ?>
+
+			<?php framework_numeric_posts_nav(); ?>
 
 			<?php framework_paging_nav(); ?>
 

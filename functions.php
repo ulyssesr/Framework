@@ -43,43 +43,32 @@ function framework_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'framework' ),
+		'secondary' => __( 'Secondary Menu', 'framework'),
+		'tertiary' => __( 'Tertiary Menu', 'framework'),
 	) );
 
-	/*
-	 * Switch default core markup for search form, comment form, and comments
-	 * to output valid HTML5.
-	 */
-	add_theme_support( 'html5', array(
-		'search-form', 'comment-form', 'comment-list', 'gallery', 'caption',
-	) );
-
-	/*
-	 * Enable support for Post Formats.
-	 * See http://codex.wordpress.org/Post_Formats
-	 */
-	add_theme_support( 'post-formats', array(
-		'aside', 'image', 'video', 'quote', 'link',
-	) );
+	// Enable support for Post Formats.
+	add_theme_support( 'post-formats', array( 'aside', 'image', 'video', 'quote', 'link' ) );
 
 	// Setup the WordPress core custom background feature.
 	add_theme_support( 'custom-background', apply_filters( 'framework_custom_background_args', array(
 		'default-color' => 'ffffff',
 		'default-image' => '',
 	) ) );
+
+	// Enable support for HTML5 markup.
+	add_theme_support( 'html5', array( 'comment-list', 'search-form', 'comment-form', ) );
 }
 endif; // framework_setup
 add_action( 'after_setup_theme', 'framework_setup' );
 
 /**
- * Register widget area.
- *
- * @link http://codex.wordpress.org/Function_Reference/register_sidebar
+ * Register widgetized area and update sidebar with default widgets.
  */
 function framework_widgets_init() {
 	register_sidebar( array(
 		'name'          => __( 'Sidebar', 'framework' ),
 		'id'            => 'sidebar-1',
-		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h1 class="widget-title">',
@@ -101,13 +90,6 @@ function framework_scripts() {
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 	}
-
-	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/css/bootstrap.css', array( ), false, 'all' );
-	
-	wp_enqueue_script( 'bootstrap', get_template_directory_uri() . '/js/bootstrap.js', array( ), false, 'all' );
-	
-	wp_enqueue_script('jquery');
-
 }
 add_action( 'wp_enqueue_scripts', 'framework_scripts' );
 
@@ -135,4 +117,9 @@ require get_template_directory() . '/inc/customizer.php';
  * Load Jetpack compatibility file.
  */
 require get_template_directory() . '/inc/jetpack.php';
+
+/**
+ * Load Pagination
+ */
+require get_template_directory() . '/inc/pagination.php';
 

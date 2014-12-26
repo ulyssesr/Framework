@@ -31,6 +31,8 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
+			<?php framework_numeric_posts_nav(); ?>
+
 			<?php framework_paging_nav(); ?>
 
 		<?php else : ?>
