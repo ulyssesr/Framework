@@ -698,17 +698,16 @@ object {
 .menu li {
 	background-color: #fff;
 	margin: 0 3px 0 0;
-	border: 1px solid #eee;
-	border-radius: 2px;
+	border-radius: 5px;
 }
 
 .menu li.current-menu-item {
-	background-color:#eee;
-	border: 1px solid #ddd;
+	background-color:#f0f0f0;
+	border: 1px solid #eee;
 }
 
 .menu li {
-	padding: 0 3px;
+	padding: 3px 4px;
 }
 
 .menu li a {
