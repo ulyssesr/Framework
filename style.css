@@ -656,17 +656,17 @@ object {
 .navigation li a:hover,
 .navigation li.active a,
 .navigation li.disabled {
-	color: #333;
-	background-color: #d7d7d7;
+	color: #000;
+	background-color: #ddd;
 	border-radius: 3px;
 	cursor: pointer;
-	padding: 12px;
+	padding: 16px;
 	padding: 0.75rem;
 }
 
 .navigation li a:hover,
 .navigation li.active a {
-	background-color: #999;
+	background-color: #bbb;
 }
 
 
@@ -695,20 +695,29 @@ object {
 /* =Top Menu
 ----------------------------------------------- */
 
+.menu {
+	border-right: 1px solid #e7e7e7;
+}
+
 .menu li {
 	background-color: #eee;
-	margin: 0 5px 0 0;
-	border-radius: 5px;
-	border: 1px solid #eee;
+	margin:0;
+	padding:0;
+	border-radius: 0px;
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+	border-left: 1px solid #e7e7e7;
 }
 
 .menu li.current-menu-item {
-	background-color:#f0f0f0;
-	border: 1px solid #eee;
+	background-color:#e7e7e7;
+	border: 1px solid #ddd;
 }
 
 .menu li {
-	padding: 3px 5px;
+	background-color: #f0f0f0;
+	padding: 5px 10px;
+	margin: 0;
 }
 
 .menu li a {
@@ -716,15 +725,21 @@ object {
 }
 
 .menu li a:hover {
-	color:#06c;
+	color:#f56203;
 }
 
 .sub-menu {
-	padding-top: 9px;
+	padding-top: 11px;
 }
 
 .sub-menu li { 
-	padding:5px 10px; margin:0px; background-color: #f0f0f0; border-radius:0px
+	background-color: #f56203;
+	padding:7px 10px;
+	border-top:none;
+	border-left: 1px solid #e7e7e7;
+	border-right: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+	background-color: #f0f0f0;
 }
 
 
@@ -740,18 +755,18 @@ body.home, body.page, body.archive, body.category, body.single { background-colo
 
 /** Headers **/
 
-h1.site-title {font-size:56px; text-shadow: 2px 2px 2px #ddd;}
+h1.site-title {font-size:56px; text-shadow: 2px 2px 2px #ccc;}
 h1.site-title a, h1.entry-title a {color:#666;} 
 h1.site-title a:hover, h1.entry-title a:hover {color:#aaa}
 h2.site-description {font-size:18px; margin-left:5px;}
-h1 {font-size:24px; text-shadow: 2px 2px 2px #ddd;}
-h2 {font-size:20px; text-shadow: 2px 2px 2px #ddd;}
-h3 {font-size:18px; text-shadow: 1px 1px 1px #ddd;}
-h4 {font-size:16px; text-shadow: 1px 1px 1px #ddd;}
+h1 {font-size:24px; text-shadow: 2px 2px 2px #ccc;}
+h2 {font-size:20px; text-shadow: 2px 2px 2px #ccc;}
+h3 {font-size:18px; text-shadow: 1px 1px 1px #ccc;}
+h4 {font-size:16px; text-shadow: 1px 1px 1px #ccc;}
 
 /** Links **/
 
-a, a:active,a:visited {color:#06c;text-decoration:none;}  
+a, a:active,a:visited {color:#f56203;text-decoration:none;}  
 a:hover {color:#999;text-decoration:underline;} 
 
 /** Content **/
