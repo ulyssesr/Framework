@@ -15,13 +15,13 @@ get_header(); ?>
 		<?php if ( have_posts() ) : ?>
 
 			<header class="page-header">
-				<h1 class="page-title">
+				<h3 class="page-title">
 					<?php
 						if ( is_category() ) :
-							single_cat_title();
+							single_cat_title('Category: ');
 
 						elseif ( is_tag() ) :
-							single_tag_title();
+							single_tag_title('Tag: ');
 
 						elseif ( is_author() ) :
 							printf( __( 'Author: %s', 'framework' ), '<span class="vcard">' . get_the_author() . '</span>' );
@@ -67,7 +67,7 @@ get_header(); ?>
 
 						endif;
 					?>
-				</h1>
+				</h3>
 				<?php
 					// Show an optional term description.
 					$term_description = term_description();

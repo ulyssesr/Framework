@@ -658,7 +658,7 @@ object {
 .navigation li.disabled {
 	color: #000;
 	background-color: #ddd;
-	border-radius: 3px;
+	border-radius: 0px;
 	cursor: pointer;
 	padding: 16px;
 	padding: 0.75rem;
@@ -710,8 +710,13 @@ object {
 }
 
 .menu li.current-menu-item {
-	background-color:#e7e7e7;
-	border: 1px solid #ddd;
+	color: #fff;
+	background-color:#f56203;
+	border: 1px solid #f56203;
+}
+
+.menu li.current-menu-item a {
+	color: #fff;
 }
 
 .menu li {
@@ -729,16 +734,16 @@ object {
 }
 
 .sub-menu {
-	padding-top: 11px;
+	padding-top: 12px;
 }
 
 .sub-menu li { 
 	background-color: #f56203;
 	padding:7px 10px;
 	border-top:none;
-	border-left: 1px solid #e7e7e7;
-	border-right: 1px solid #e7e7e7;
-	border-bottom: 1px solid #e7e7e7;
+	border-left: 1px solid #fff;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
 	background-color: #f0f0f0;
 }
 
@@ -751,7 +756,7 @@ object {
 /** Page **/
 
 body.home, body.page, body.archive, body.category, body.single { background-color: #ccc; }
-#page {margin:40px auto; padding:50px;width:60%;font-size:18px;color:#444;border-radius:10px;background-color:#fff;}
+#page {margin:40px auto; padding:50px;width:60%;font-size:18px;color:#444;border-radius:0px;background-color:#fff;}
 
 /** Headers **/
 
