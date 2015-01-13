@@ -711,8 +711,8 @@ object {
 
 .menu li.current-menu-item {
 	color: #fff;
-	background-color:#f56203;
-	border: 1px solid #f56203;
+	background-color:#DE5A02;
+	border: 1px solid #DE5A02;
 }
 
 .menu li.current-menu-item a {
@@ -730,7 +730,7 @@ object {
 }
 
 .menu li a:hover {
-	color:#f56203;
+	color:#DE5A02;
 }
 
 .sub-menu {
@@ -738,7 +738,7 @@ object {
 }
 
 .sub-menu li { 
-	background-color: #f56203;
+	background-color: #DE5A02;
 	padding:7px 10px;
 	border-top:none;
 	border-left: 1px solid #fff;
