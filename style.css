@@ -719,6 +719,10 @@ object {
 	color: #fff;
 }
 
+.menu li.current-menu-item a:hover {
+	color: #222;
+}
+
 .menu li {
 	background-color: #f0f0f0;
 	padding: 5px 10px;
