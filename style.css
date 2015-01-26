@@ -759,8 +759,8 @@ object {
 
 /** Page **/
 
-body.home, body.page, body.archive, body.category, body.single { background-color: #ccc; }
-#page {margin:40px auto; padding:50px;width:60%;font-size:18px;color:#444;border-radius:0px;background-color:#fff;}
+body.home, body.page, body.archive, body.category, body.single { background-color: #fff; }
+#page {margin:0px auto; padding:5px 0;width:60%;font-size:18px;color:#444;border-radius:0px;background-color:#fff;}
 
 /** Headers **/
 
