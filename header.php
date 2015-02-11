@@ -28,7 +28,6 @@
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 			<?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?>
-			<?php wp_nav_menu( array( 'theme_location' => 'tertiary' ) ); ?>
 
 		</nav><!-- #site-navigation -->
 

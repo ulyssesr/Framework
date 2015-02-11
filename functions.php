@@ -43,8 +43,7 @@ function framework_setup() {
 	// This theme uses wp_nav_menu() in one location.
 	register_nav_menus( array(
 		'primary' => __( 'Primary Menu', 'framework' ),
-		'secondary' => __( 'Secondary Menu', 'framework'),
-		'tertiary' => __( 'Tertiary Menu', 'framework'),
+		'secondary' => __( 'Secondary Menu', 'framework')
 	) );
 
 	// Enable support for Post Formats.

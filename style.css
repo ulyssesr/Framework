@@ -696,17 +696,17 @@ object {
 ----------------------------------------------- */
 
 .menu {
-	border-right: 1px solid #e7e7e7;
+	border-right: 1px solid #eee;
 }
 
 .menu li {
-	background-color: #eee;
+	background-color: #fff;
 	margin:0;
 	padding:0;
 	border-radius: 0px;
-	border-top: 1px solid #e7e7e7;
-	border-bottom: 1px solid #e7e7e7;
-	border-left: 1px solid #e7e7e7;
+	border-top: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+	border-left: 1px solid #eee;
 }
 
 .menu li.current-menu-item {
@@ -724,7 +724,7 @@ object {
 }
 
 .menu li {
-	background-color: #f0f0f0;
+	background-color: #fff;
 	padding: 5px 10px;
 	margin: 0;
 }
@@ -759,7 +759,7 @@ object {
 
 /** Page **/
 
-body.home, body.page, body.archive, body.category, body.single { background-color: #fff; }
+body.home, body.page, body.archive, body.category, body.single { background-color: #fff; text-align:center;}
 #page {margin:0px auto; padding:5px 0;width:60%;font-size:18px;color:#444;border-radius:0px;background-color:#fff;}
 
 /** Headers **/
@@ -864,7 +864,7 @@ h4 {font-size:20px}
 
 @media screen and (min-width: 1050px) {
 body {text-align:left;}
-#page {font-size:18px;} 
+#page {width: 70%;font-size:18px;} 
 h1.site-title {font-size:48px;}
 h2.site-description {font-size:16px;}
 h1 {font-size:36px;}
@@ -874,9 +874,9 @@ h4 {font-size:20px}
 }
 
 @media screen and (min-width: 1200px) {
-#page {width: 75%;font-size:18px;}
+#page {width: 60%;font-size:18px;}
 }
 
 @media screen and (min-width: 1440px) {
-#page {width: 70%;font-size:18px;}
+#page {width: 50%;font-size:18px;}
 }
