@@ -712,8 +712,8 @@ object {
 
 .menu li.current-menu-item {
 	color: #fff;
-	background-color:#DE5A02;
-	border: 1px solid #DE5A02;
+	background-color:#d24d57;
+	border: 1px solid #d24d57;
 }
 
 .menu li.current-menu-item a {
@@ -735,7 +735,7 @@ object {
 }
 
 .menu li a:hover {
-	color:#DE5A02;
+	color:#D24d57;
 }
 
 .sub-menu {
@@ -743,7 +743,7 @@ object {
 }
 
 .sub-menu li { 
-	background-color: #DE5A02;
+	background-color: #d24d57;
 	padding:7px 10px;
 	border-top:none;
 	border-left: 1px solid #fff;
@@ -776,7 +776,7 @@ h4 {font-size:16px; text-shadow: 1px 1px 1px #ccc;}
 
 /** Links **/
 
-a, a:active,a:visited {color:#f56203;text-decoration:none;}  
+a, a:active,a:visited {color:#d24d57;text-decoration:none;}  
 a:hover {color:#999;text-decoration:underline;} 
 
 /** Content **/
