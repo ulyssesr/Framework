@@ -761,14 +761,14 @@ object {
 /** Page **/
 
 body.home, body.page, body.archive, body.category, body.single { background-color: #fff; text-align:left;}
-#page {margin:0px auto; padding:15px 30px;width:60%;font-size:18px;color:#000;border-radius:0px;background-color:#fff;opacity: 0.85;filter: alpha(opacity=85); /* For IE8 and earlier */}
+#page {margin:20px auto; padding:15px 30px;width:60%;font-size:18px;color:#000;border-radius:0px;background-color:#fff;opacity: 0.85;filter: alpha(opacity=85); /* For IE8 and earlier */}
 
 
 /** Headers **/
 
 h1.site-title {font-size:56px; text-shadow: 2px 2px 2px #ccc;}
-h1.site-title a, h1.entry-title a {color:#d24d57;} 
-h1.site-title a:hover, h1.entry-title a:hover {color:#3498db;}
+h1.site-title a, h1.entry-title a {color:#3498db;} 
+h1.site-title a:hover, h1.entry-title a:hover {color:#d24d57;}
 h2.site-description {font-size:18px; margin-left:5px;}
 h1 {font-size:24px; text-shadow: 2px 2px 2px #ccc;}
 h2 {font-size:20px; text-shadow: 2px 2px 2px #ccc;}
@@ -777,8 +777,8 @@ h4 {font-size:16px; text-shadow: 1px 1px 1px #ccc;}
 
 /** Links **/
 
-a, a:active,a:visited {color:#d24d57;text-decoration:none;}  
-a:hover {color:#3498db;text-decoration:underline;} 
+a, a:active,a:visited {color:#3498db;text-decoration:none;}  
+a:hover {color:#d24d57;text-decoration:underline;} 
 
 /** Content **/
 
@@ -876,9 +876,9 @@ h4 {font-size:20px}
 }
 
 @media screen and (min-width: 1200px) {
-#page {width: 60%;font-size:18px;}
+#page {width: 70%;font-size:18px;}
 }
 
 @media screen and (min-width: 1440px) {
-#page {width: 60%;font-size:18px;}
+#page {width: 70%;font-size:18px;}
 }

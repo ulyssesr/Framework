@@ -15,14 +15,19 @@ get_header(); ?>
 				</header>
 
 				<div class="entry-content">
-				
+
 					<?php get_search_form(); ?>
+
 					<br/>
-					<p>The web is a vast ocean. Many mariners have been lost while searching for hidden treasures.</p>
+					<p>Arrr, matey, ye've come to the right place!</p>
+					
+					<p><img src="http://ulyssesonline.com/wp-content/uploads/2014/12/A-Pirate-Ship-Open-Sail-to-the-Ocean-Coloring-Page.jpg" width="150"/></p>
 
-					<p>Avoid the same fate by typing a keyword or two to find your way back.</p>
+					<p>The web is a vast sea where many men have been lost.</p>
 
-					<p>You can also search the <a href="/archives/">Archives</a> for hidden treasures.</p>
+					<p>Find your way back home by typing in a keyword or two.</p>
+
+					<p>You can plunder the <a href="/archives/">Archives</a> for more hidden treasures.</p>
 								
 				</div>
 
