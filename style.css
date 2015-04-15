@@ -766,19 +766,19 @@ body.home, body.page, body.archive, body.category, body.single { background-colo
 
 /** Headers **/
 
-h1.site-title {font-size:56px; text-shadow: 2px 2px 2px #ccc;}
-h1.site-title a, h1.entry-title a {color:#3498db;} 
-h1.site-title a:hover, h1.entry-title a:hover {color:#d24d57;}
+h1.site-title {font-size:56px; text-shadow: 1px 1px 1px #ccc;}
+h1.site-title a, h1.entry-title a {color:#d24d57;} 
+h1.site-title a:hover, h1.entry-title a:hover {color:#3498db;}
 h2.site-description {font-size:18px; margin-left:5px;}
-h1 {font-size:24px; text-shadow: 2px 2px 2px #ccc;}
-h2 {font-size:20px; text-shadow: 2px 2px 2px #ccc;}
+h1 {font-size:24px; text-shadow: 1px 1px 1px #ccc;}
+h2 {font-size:20px; text-shadow: 1px 1px 1px #ccc;}
 h3 {font-size:18px; text-shadow: 1px 1px 1px #ccc;}
 h4 {font-size:16px; text-shadow: 1px 1px 1px #ccc;}
 
 /** Links **/
 
-a, a:active,a:visited {color:#3498db;text-decoration:none;}  
-a:hover {color:#d24d57;text-decoration:underline;} 
+a, a:active,a:visited {color:#d24d57;text-decoration:none;}  
+a:hover {color:#3498db;text-decoration:underline;} 
 
 /** Content **/
 
