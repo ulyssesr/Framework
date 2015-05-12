@@ -805,7 +805,7 @@ input.search-submit {font-size: 16px; margin-left: 3px;}
 
 /** Lists **/
 
-.entry-content ul li, .entry-content ol li { list-style-type: none;}
+.entry-content ul li { list-style-type: circle;}
 
 /** Comment Form **/
 
