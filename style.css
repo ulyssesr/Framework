@@ -767,8 +767,8 @@ body.home, body.page, body.archive, body.category, body.single { background-colo
 /** Headers **/
 
 h1.site-title {font-size:56px; text-shadow: 1px 1px 1px #ccc;}
-h1.site-title a, h1.entry-title a {color:#3498db;} 
-h1.site-title a:hover, h1.entry-title a:hover {color:#d24d57;}
+h1.site-title a, h1.entry-title a {color:#d24d57;} 
+h1.site-title a:hover, h1.entry-title a:hover {color:#3498db;}
 h2.site-description {font-size:18px; margin-left:5px;}
 h1 {font-size:24px; text-shadow: 1px 1px 1px #ccc;}
 h2 {font-size:20px; text-shadow: 1px 1px 1px #ccc;}
@@ -814,6 +814,27 @@ input.search-submit {font-size: 16px; margin-left: 3px;}
 .comment-form-email label { display: inline-block ; width: 80px; }
 .comment-form-url label { display: inline-block ; width: 80px; }
 input.wpcf7-submit { font-size: 16px; }
+
+/** Blockquote **/
+
+blockquote {
+  background: #f9f9f9;
+  border-left: 10px solid #ddd;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
 
 /** Responsive **/
 
@@ -866,7 +887,7 @@ h4 {font-size:20px}
 
 @media screen and (min-width: 1050px) {
 body {text-align:left;}
-#page {width: 70%;font-size:18px;} 
+#page {width: 70%;font-size:16px;} 
 h1.site-title {font-size:48px;}
 h2.site-description {font-size:16px;}
 h1 {font-size:36px;}
@@ -876,9 +897,9 @@ h4 {font-size:20px}
 }
 
 @media screen and (min-width: 1200px) {
-#page {width: 70%;font-size:22px;}
+#page {width: 70%;font-size:16px;}
 }
 
 @media screen and (min-width: 1440px) {
-#page {width: 70%;font-size:22px;}
+#page {width: 70%;font-size:16px;}
 }
