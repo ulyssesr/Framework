@@ -15,12 +15,24 @@ get_header(); ?>
 					<h1>Archives</h1>
 				</header>
 
-				<div class="entry-content">
+				<div class="container"> 
+					<div class="entry-content">
+
+						<p><strong>By Category:</strong></p>
+
+						<div class="bycategories">
+							<?php wp_list_categories('title_li='); ?>
+						</div>
+						<div style="clear:both"></div>
+
+						<br/>
+						<p><strong>By Month:</strong></p>			
+
+						<div class="three-column">
+							<?php wp_get_archives(array('type' => 'monthly', 'format' => 'custom', 'before' => '', 'after' => '<br/>')); ?>
+						</div>
 				
-					<div class="three-column">
-						<?php wp_get_archives(array('type' => 'monthly', 'format' => 'custom', 'before' => '', 'after' => '<br/>')); ?>
 					</div>
-				
 				</div>
 
 			</article>

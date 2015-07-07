@@ -786,7 +786,25 @@ a:hover {color:#d24d57;text-decoration:underline;}
 article {padding: 50px 0; text-align: left;}
 .content-area {padding-top:50px;}
 .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5 {margin: 15px 0;}
-.three-column {-moz-column-count: 4;-moz-column-gap: 20px;-webkit-column-count: 4;-webkit-column-gap: 20px;margin:30px 0;}
+.three-column {
+	-moz-column-count: 4;
+	-moz-column-gap: 20px;
+	-webkit-column-count: 4;
+	-webkit-column-gap: 20px;
+	-webkit-column-width: 200px;
+	-moz-column-width:200px;
+	column-width:200px;
+	margin:30px 0 0 0;
+}
+
+.bycategories {
+	list-style-type: none;
+}
+.bycategories li {
+	float: left;
+	padding: 2px 3px;
+	margin: 1px;
+}
 
 /** Sidebar **/
 
