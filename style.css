@@ -917,10 +917,10 @@ body {text-align:left;}
 #page {width: 70%;font-size:16px;} 
 h1.site-title {font-size:48px;}
 h2.site-description {font-size:16px;}
-h1 {font-size:48px;}
-h2 {font-size:36px;}
-h3 {font-size:28px;}
-h4 {font-size:24px}
+h1 {font-size:36px;}
+h2 {font-size:28px;}
+h3 {font-size:24px;}
+h4 {font-size:20px}
 }
 
 @media screen and (min-width: 1200px) {
