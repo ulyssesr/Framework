@@ -317,7 +317,7 @@ textarea {
 
 /* Links */
 a {
-	color: royalblue;
+	color: rebeccapurple;
 }
 a:visited {
 	color: purple;
@@ -712,8 +712,8 @@ object {
 
 .menu li.current-menu-item {
 	color: #fff;
-	background-color:#3498db;
-	border: 1px solid #3498db;
+	background-color:#b9596e;
+	border: 1px solid #b9596e;
 }
 
 .menu li.current-menu-item a {
@@ -735,7 +735,7 @@ object {
 }
 
 .menu li a:hover {
-	color:#D24d57;
+	color:#b9596e;
 }
 
 .sub-menu {
@@ -761,14 +761,14 @@ object {
 /** Page **/
 
 body.home, body.page, body.archive, body.category, body.single { background-color: #fff; text-align:left;}
-#page {margin:50px auto; padding:15px 30px;width:60%;font-size:18px;color:#000;border-radius:0px;background-color:#fff;); /* For IE8 and earlier */}
+#page {margin:0px auto; padding:10px 30px;width:60%;font-size:18px;color:#000;border-radius:0px;background-color:#fff;); /* For IE8 and earlier */}
 /** #page { background-image:url("images/cloud.png"); background-repeat:no-repeat;} **/
 
 /** Headers **/
 
-h1.site-title {font-size:56px; text-shadow: 1px 1px 1px #ccc;}
-h1.site-title a, h1.entry-title a {color:#d24d57;} 
-h1.site-title a:hover, h1.entry-title a:hover {color:#3498db;}
+h1.site-title {font-size:56px; text-shadow: 1px 1px 1px #ccc; padding-top:50px;}
+h1.site-title a, h1.entry-title a {color:#b9596e;} 
+h1.site-title a:hover, h1.entry-title a:hover {color:#aaa;}
 h2.site-description {font-size:18px; margin-left:5px; margin-top:-10px;}
 h1 {font-size:24px; text-shadow: 1px 1px 1px #ccc;}
 h2 {font-size:20px; text-shadow: 1px 1px 1px #ccc;}
@@ -777,13 +777,13 @@ h4 {font-size:16px; text-shadow: 1px 1px 1px #ccc;}
 
 /** Links **/
 
-a, a:active,a:visited {color:#3498db;text-decoration:none;}  
-a:hover {color:#d24d57;text-decoration:underline;} 
+a, a:active,a:visited {color:#b9596e;text-decoration:none;}  
+a:hover {color:#aaa;text-decoration:underline;} 
 
 /** Content **/
 
 .site-branding {padding: 0 0 40px 0;}
-article {padding: 50px 0; text-align: left;}
+article {padding: 40px 0; text-align: left;}
 .content-area {padding-top:50px;}
 .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5 {margin: 15px 0;}
 .three-column {
@@ -914,7 +914,7 @@ h4 {font-size:20px}
 
 @media screen and (min-width: 1050px) {
 body {text-align:left;}
-#page {width: 70%;font-size:16px;} 
+#page {width: 60%;font-size:16px;} 
 h1.site-title {font-size:48px;}
 h2.site-description {font-size:16px;}
 h1 {font-size:36px;}
@@ -924,9 +924,9 @@ h4 {font-size:20px}
 }
 
 @media screen and (min-width: 1200px) {
-#page {width: 70%;font-size:16px;}
+#page {width: 60%;font-size:16px;}
 }
 
 @media screen and (min-width: 1440px) {
-#page {width: 70%;font-size:16px;}
+#page {width: 60%;font-size:16px;}
 }

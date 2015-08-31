@@ -23,6 +23,15 @@
 
 	<header id="masthead" class="site-header" role="banner">
 
+		<nav id="site-navigation" class="main-navigation" role="navigation">
+			<h1 class="menu-toggle"><img src="<?php echo get_stylesheet_directory_uri(); ?>/images/menu.png" alt="menu.png"/></h1>
+			<a class="skip-link screen-reader-text" href="#content"><?php _e( 'Skip to content', 'framework' ); ?></a>
+
+			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+			<?php wp_nav_menu( array( 'theme_location' => 'secondary' ) ); ?>
+
+		</nav><!-- #site-navigation -->
+
 		<div class="site-branding">
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
