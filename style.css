@@ -761,12 +761,12 @@ object {
 /** Page **/
 
 body.home, body.page, body.archive, body.category, body.single { background-color: #fff; text-align:left;}
-#page {margin:0px auto; padding:10px 30px;width:60%;font-size:18px;color:#000;border-radius:0px;background-color:#fff;); /* For IE8 and earlier */}
+#page { margin:0px auto;padding:10px 30px;width:60%;font-size:18px;color:#000;border-radius:0px;background-color:#fff;); /* For IE8 and earlier */}
 /** #page { background-image:url("images/cloud.png"); background-repeat:no-repeat;} **/
 
 /** Headers **/
 
-h1.site-title {font-size:56px; text-shadow: 1px 1px 1px #ccc; padding-top:50px;}
+h1.site-title {font-size:56px; text-shadow: 1px 1px 1px #ccc; padding-top:0px;}
 h1.site-title a, h1.entry-title a {color:#b9596e;} 
 h1.site-title a:hover, h1.entry-title a:hover {color:#aaa;}
 h2.site-description {font-size:18px; margin-left:5px; margin-top:-10px;}
@@ -782,8 +782,8 @@ a:hover {color:#aaa;text-decoration:underline;}
 
 /** Content **/
 
-.site-branding {padding: 0 0 40px 0;}
-article {padding: 40px 0; text-align: left;}
+.site-branding {padding: 0;}
+article {padding: 0px 0; text-align: left;}
 .content-area {padding-top:50px;}
 .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5 {margin: 15px 0;}
 .three-column {
