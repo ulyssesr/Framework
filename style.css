@@ -761,7 +761,7 @@ object {
 /** Page **/
 
 body.home, body.page, body.archive, body.category, body.single { background-color: #fff; text-align:left;}
-#page { margin:0px auto;padding:10px 30px;width:60%;font-size:18px;color:#000;border-radius:0px;background-color:#fff;); /* For IE8 and earlier */}
+#page { margin:15px auto;padding:10px 30px;width:60%;font-size:18px;color:#000;border-radius:0px;background-color:#fff;); /* For IE8 and earlier */}
 /** #page { background-image:url("images/cloud.png"); background-repeat:no-repeat;} **/
 
 /** Headers **/
