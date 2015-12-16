@@ -92,6 +92,17 @@ function framework_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'framework_scripts' );
 
+
+/**
+ * Customized Jetpack Infinite Scroll.
+ */
+add_filter( 'infinite_scroll_credit', 'urr_my_footer_text' );
+function urr_my_footer_text() {
+	$this_year = date('Y');
+	$footer_text = 'Copyright &copy; 2003-'.$this_year.'. All rights reserved';
+	return $footer_text;
+}
+
 /**
  * Implement the Custom Header feature.
  */

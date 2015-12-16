@@ -12,6 +12,7 @@
  */
 
 get_header(); ?>
+<?php get_sidebar(); ?>
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main" role="main">
@@ -31,9 +32,9 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<?php framework_numeric_posts_nav(); ?>
+			<?php //framework_numeric_posts_nav(); ?>
 
-			<?php framework_paging_nav(); ?>
+			<?php //framework_paging_nav(); ?>
 
 		<?php else : ?>
 
@@ -44,5 +45,4 @@ get_header(); ?>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>

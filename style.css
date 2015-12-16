@@ -767,13 +767,16 @@ body.home, body.page, body.archive, body.category, body.single { background-colo
 /** Headers **/
 
 h1.site-title {font-size:56px; text-shadow: 1px 1px 1px #ccc; padding-top:50px;}
-h1.site-title a, h1.entry-title a {color:#b9596e;} 
-h1.site-title a:hover, h1.entry-title a:hover {color:#000;}
+h1.site-title a, h1.entry-title a {color:#000} 
+h1.site-title a:hover, h1.entry-title a:hover {color:#b9596e;;}
 h2.site-description {font-size:18px; margin-left:5px; margin-top:-10px;}
 h1 {font-size:24px; text-shadow: 1px 1px 1px #ccc;}
 h2 {font-size:20px; text-shadow: 1px 1px 1px #ccc;}
 h3 {font-size:18px; text-shadow: 1px 1px 1px #ccc;}
 h4 {font-size:16px; text-shadow: 1px 1px 1px #ccc;}
+
+h1.entry-title a { color:#000;}
+h1.entry-title a:hover {color:#b9596e;}
 
 /** Links **/
 
@@ -784,7 +787,7 @@ a:hover {color:#000;text-decoration:underline;}
 
 .site-branding {padding: 0;}
 article {padding: 25px 0; text-align: left;}
-.content-area {padding-top:50px;}
+#primary.content-area {padding-top:0px;}
 .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5 {margin: 15px 0;}
 .three-column {
 	-moz-column-count: 4;
@@ -928,5 +931,5 @@ h4 {font-size:20px}
 }
 
 @media screen and (min-width: 1440px) {
-#page {width: 70%;font-size:18px;}
+#page {width: 70%;font-size:20px;}
 }
