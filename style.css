@@ -761,13 +761,13 @@ object {
 /** Page **/
 
 body.home, body.page, body.archive, body.category, body.single { background-color: #fff; text-align:left;}
-#page { margin:15px auto;padding:10px 30px;width:60%;font-size:18px;color:#000;border-radius:0px;background-color:#fff;); /* For IE8 and earlier */}
+#page { margin:15px auto;padding:10px 30px;width:60%;font-size:18px;color:#777;border-radius:0px;background-color:#fff;); /* For IE8 and earlier */}
 /** #page { background-image:url("images/cloud.png"); background-repeat:no-repeat;} **/
 
 /** Headers **/
 
 h1.site-title {font-size:56px; text-shadow: 1px 1px 1px #ccc; padding-top:50px;}
-h1.site-title a, h1.entry-title a {color:#000} 
+h1.site-title a, h1.entry-title a {color:#777} 
 h1.site-title a:hover, h1.entry-title a:hover {color:#b9596e;;}
 h2.site-description {font-size:18px; margin-left:5px; margin-top:-10px;}
 h1 {font-size:24px; text-shadow: 1px 1px 1px #ccc;}
@@ -775,7 +775,7 @@ h2 {font-size:20px; text-shadow: 1px 1px 1px #ccc;}
 h3 {font-size:18px; text-shadow: 1px 1px 1px #ccc;}
 h4 {font-size:16px; text-shadow: 1px 1px 1px #ccc;}
 
-h1.entry-title a { color:#000;}
+h1.entry-title a, h1.entry-title { color:#777;}
 h1.entry-title a:hover {color:#b9596e;}
 
 /** Links **/
@@ -788,7 +788,7 @@ a:hover {color:#000;text-decoration:underline;}
 .site-branding {padding: 0;}
 article {padding: 25px 0; text-align: left;}
 #primary.content-area {padding-top:0px;}
-.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5 {margin: 15px 0;}
+.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5 {margin: 15px 0; color:#777;}
 .three-column {
 	-moz-column-count: 4;
 	-moz-column-gap: 20px;
