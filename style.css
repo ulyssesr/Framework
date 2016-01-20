@@ -761,13 +761,13 @@ object {
 /** Page **/
 
 body.home, body.page, body.archive, body.category, body.single { background-color: #fff; text-align:left;}
-#page { margin:15px auto;padding:10px 30px;width:60%;font-size:18px;color:#777;border-radius:0px;background-color:#fff;); /* For IE8 and earlier */}
+#page { margin:15px auto;padding:10px 30px;width:60%;font-size:18px;color:#555;border-radius:0px;background-color:#fff;); /* For IE8 and earlier */}
 /** #page { background-image:url("images/cloud.png"); background-repeat:no-repeat;} **/
 
 /** Headers **/
 
 h1.site-title {font-size:56px; text-shadow: 1px 1px 1px #ccc; padding-top:50px;}
-h1.site-title a, h1.entry-title a {color:#777} 
+h1.site-title a, h1.entry-title a {color:#555} 
 h1.site-title a:hover, h1.entry-title a:hover {color:#b9596e;;}
 h2.site-description {font-size:18px; margin-left:5px; margin-top:-10px;}
 h1 {font-size:24px; text-shadow: 1px 1px 1px #ccc;}
@@ -775,7 +775,7 @@ h2 {font-size:20px; text-shadow: 1px 1px 1px #ccc;}
 h3 {font-size:18px; text-shadow: 1px 1px 1px #ccc;}
 h4 {font-size:16px; text-shadow: 1px 1px 1px #ccc;}
 
-h1.entry-title a, h1.entry-title { color:#777;}
+h1.entry-title a, h1.entry-title { color:#555;}
 h1.entry-title a:hover {color:#b9596e;}
 
 /** Links **/
