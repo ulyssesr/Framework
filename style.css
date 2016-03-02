@@ -712,8 +712,8 @@ object {
 
 .menu li.current-menu-item {
 	color: #fff;
-	background-color:#b9596e;
-	border: 1px solid #b9596e;
+	background-color:#dd4b39;
+	border: 1px solid #dd4b39;
 }
 
 .menu li.current-menu-item a {
@@ -735,7 +735,7 @@ object {
 }
 
 .menu li a:hover {
-	color:#b9596e;
+	color:#dd4b39;
 }
 
 .sub-menu {
@@ -761,27 +761,32 @@ object {
 /** Page **/
 
 body.home, body.page, body.archive, body.category, body.single { background-color: #fff; text-align:left;}
-#page { margin:15px auto;padding:10px 30px;width:60%;font-size:18px;color:#555;border-radius:0px;background-color:#fff;); /* For IE8 and earlier */}
+#page { margin:50px auto;padding:10px 30px;width:60%;font-size:18px;color:#555;border-radius:0px;background-color:#fff;); /* For IE8 and earlier */}
 /** #page { background-image:url("images/cloud.png"); background-repeat:no-repeat;} **/
 
 /** Headers **/
 
 h1.site-title {font-size:56px; text-shadow: 1px 1px 1px #ccc; padding-top:50px;}
-h1.site-title a, h1.entry-title a {color:#555} 
-h1.site-title a:hover, h1.entry-title a:hover {color:#b9596e;;}
+h1.site-title a, h1.entry-title a {color:#dd4b39;} 
+h1.site-title a:hover, h1.entry-title a:hover {color:#dd4b39;}
 h2.site-description {font-size:18px; margin-left:5px; margin-top:-10px;}
 h1 {font-size:24px; text-shadow: 1px 1px 1px #ccc;}
 h2 {font-size:20px; text-shadow: 1px 1px 1px #ccc;}
 h3 {font-size:18px; text-shadow: 1px 1px 1px #ccc;}
 h4 {font-size:16px; text-shadow: 1px 1px 1px #ccc;}
 
-h1.entry-title a, h1.entry-title { color:#555;}
-h1.entry-title a:hover {color:#b9596e;}
+h1.entry-title a, h1.entry-title { color:#dd4b39;}
+h1.entry-title a:hover {color:#dd4b39;}
 
 /** Links **/
 
+/*
 a, a:active,a:visited {color:#b9596e;text-decoration:none;}  
 a:hover {color:#000;text-decoration:underline;} 
+*/
+
+a, a:active,a:visited {color:#33aaff;text-decoration:none;}  
+a:hover {color:#1155cc;text-decoration:underline;} 
 
 /** Content **/
 
@@ -931,5 +936,5 @@ h4 {font-size:20px}
 }
 
 @media screen and (min-width: 1440px) {
-#page {width: 70%;font-size:20px;}
+#page {width: 70%;font-size:18px;}
 }
