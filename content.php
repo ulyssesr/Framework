@@ -21,9 +21,7 @@
 	</div><!-- .entry-summary -->
 	<?php else : ?>
 	<div class="entry-content">
-		<?php //the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'framework' ) ); ?>
-		<?php the_excerpt(); ?>
-		<p><a class="more-link" href="<?php the_permalink();?>"><?php _e('[Continue reading]');?></a></p>
+		<?php the_content( __( 'Continue reading <span class="meta-nav">&rarr;</span>', 'framework' ) ); ?>
 		<?php
 			wp_link_pages( array(
 				'before' => '<div class="page-links">' . __( 'Pages:', 'framework' ),
