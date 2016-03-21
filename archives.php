@@ -19,20 +19,20 @@ get_header(); ?>
 				<div class="container"> 
 					<div class="entry-content">
 
-						<p><strong>By Category:</strong></p>
+						<h4>View by Month</h4>
+
+						<div class="three-column">
+							<?php wp_get_archives(array('type' => 'monthly', 'format' => 'custom', 'before' => '', 'after' => '<br/>')); ?>
+						</div>
+
+						<br/>
+						<h4>View by Category:</h4>
 
 						<div class="bycategories">
 							<?php wp_list_categories('title_li='); ?>
 						</div>
 						<div style="clear:both"></div>
 
-						<br/>
-						<p><strong>By Month:</strong></p>			
-
-						<div class="three-column">
-							<?php wp_get_archives(array('type' => 'monthly', 'format' => 'custom', 'before' => '', 'after' => '<br/>')); ?>
-						</div>
-				
 					</div>
 				</div>
 
