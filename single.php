@@ -15,7 +15,7 @@ get_header(); ?>
 
 			<?php get_template_part( 'content', 'single' ); ?>
 
-			<?php framework_post_nav(); ?>
+			<?php framework_numeric_posts_nav(); //framework_post_nav(); ?>
 
 			<?php
 				// If comments are open or we have at least one comment, load up the comment template

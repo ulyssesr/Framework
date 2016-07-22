@@ -13,7 +13,7 @@ get_header(); ?>
 
 				<header class="entry-header">			
 					<?php the_post(); ?>
-					<h1>Archives</h1>
+					<h1 class="entry-title">Archives</h1>
 				</header>
 
 				<div class="container"> 
